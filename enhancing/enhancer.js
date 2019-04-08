@@ -16,9 +16,9 @@ function succeed(item) {
 function fail(item) {
   if (item.enhancement < 15) {
     return item.durability =- 5
-  } if (item.enhancement > 16) {
-    return item.durability =-10 && item.enhancement--
-  } if (item.enhancement === 15 || item.enhancement === 16) {
+} if (item.enhancement > 16) {
+  return item.durability =-10 && item.enhancement--
+} if (item.enhancement === 15 || item.enhancement === 16) {
     return item.durability =- 10
   } 
 }

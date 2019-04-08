@@ -18,7 +18,7 @@ it('should restore durabilty', () => {
 
 const item = {
     durability: 91,
-    enhancement: 19,
+    enhancement: 11,
     name: 'arrow'
 }
 // Test Case Get STRETCH
